@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+   background-image: url(laptop.png.jpg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   
+   justify-content: space-between;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+#main h1{
+    color: white;
+    
+}
+#nav a{
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    padding: 0 10px;
+    
+    
+    
+}
+#nav-right i{
+    font-size: 3vw;
+    padding-right: 4vw;
+    cursor: pointer;
+}
+span{
+    color: rgb(203, 148, 158);
+}
+#main-text{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: -90vw;
+    font-size: 2.3vw;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about h1{
+    color: white;
+    text-align: center;
+}
+#page2 #about{
+    height: 30vh;
+    width: 40vw;
+    border: 1px solid bisque;
+   
+  
+ 
+
+}
+#nav-right a:hover{
+    color: red;
+
+}
+#page2 #about p{
+    color: rgb(18, 16, 16);
+    width: 70%;
+    text-align: center;
+    padding-left: 5vw;
+    color: white;
+}
+#page2 #skil{
+    height: 30vh;
+    width: 40vw;
+    border: 1px solid rgb(205, 192, 192);
+    display: flex;
+   justify-content: space-between;
+    gap: 5vw;
+}
+#skil h3{
+    padding-top: 2vw;
+}
+#skil{
+    margin-left: 4vw;
+}
+#skil-left{
+    margin-left: 3vw;
+}
+#skil-right{
+    margin-right: 2vw;
+}
+#skil-left h5{
+    padding-top: 4px;
+    border: 1px solid rebeccapurple;
+    width: 6vw;
+    margin-top: 0.7vw;
+}
+#skil-right h5{
+    padding-top: 4px;
+    border: 1px solid rebeccapurple;
+    width: 6vw;
+    margin-top: 0.7vw;
+}
+
+#page3{
+    height: 50vh;
+    width: 100%;
+    background-color: #334;
+    display: flex;
+    color: white;
+    
+}
+#page3-left{
+    
+    height: 100%;
+    width: 50%;
+}
+#page3-right{
+    height: 100%;
+    width:50%;
+    
+}
+#page3-right h3{
+    font-size: 3vw;
+    text-align: center;
+}
+#icon{
+    font-size: 2vw;
+    margin-left: 20vw;
+    margin-top: 3vw;
+    
+}
+#page3-right p{
+    margin-top: 7.4vw;
+    margin-left: 19vw;
+}
+
+
+
+
+
+
+
+#page3 h1{
+    margin-left: 10vw;
+    font-size: 5vw;
+    color: white;
+    font-weight: 200;
+}
+form{
+    margin-top: 3vw;
+}
+input{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 10px;
+    margin-left: 10vw;
+    
+}
+button{
+    height: 3vw;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 6vw;
+    font-size: 1.3vw;
+    color: white;
+    margin-left: 15vw;
+    margin-top: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+   
+
+    #main{
+        height: 50vh;
+        width: 100%;
+       background-image: url(laptop.png.jpg);
+       background-position: center;
+       background-size: cover;
+       display: flex;
+       
+       justify-content: space-between;
+    }
+    #nav{
+        height: 100px;
+        width: 100%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 30px;
+        cursor: pointer;
+        
+    }
+    #nav-right i{
+        font-size: 5vw;
+        padding-right: 9vw;
+        cursor: pointer;
+    }
+    #main h1{
+        color: white;
+        margin-top: -40vw;
+        font-size: 5.5vw;
+        
+    }
+    #nav a{
+
+        color: white;
+        font-size: 2.4vw;
+        text-decoration: none;
+        display: none;
+        
+
+    }
+    span{
+        color: rgb(203, 148, 158);
+    }
+    #main-text{
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: -90vw;
+        font-size: 2.3vw;
+    }
+
+
+    #page2{
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about h1{
+        color: white;
+        text-align: center;
+    }
+    #page2 #about{
+        height: 30vh;
+        width: 90%;
+        border: 1px solid bisque;
+       
+      
+     
+    
+    }
+    #page2 #about p{
+        color: white;
+        width: 70%;
+        text-align: center;
+       line-height: 4vw;
+       width: 80%;
+    }
+    
+    
+    #page2 #skil{
+        margin-top: 6vw;
+        height: 30vh;
+        width: 90%;
+        border: 1px solid rgb(237, 227, 227);
+        display: flex;
+       justify-content: space-between;
+        gap: 5vw;
+    }
+   
+    #skil h3{
+        padding-top: 2vw;
+    }
+    
+    #skil-left{
+        margin-left: 0vw;
+        margin-top: 10vw;
+    }
+    #skil-right{
+        margin-right: 2vw;
+        margin-top: 10vw;
+    }
+    #skil-left h5{
+        padding-top: 4px;
+        border: 1px solid black;
+        width: 6vw;
+        margin-top: 0.7vw;
+        width: 15vw;
+    }
+    #skil-right h5{
+        padding-top: 14px;
+        
+        border: 1px solid black;
+        width: 15vw;
+        margin-top: 0.7vw;
+    }
+    #page3{
+        height: 50vh;
+        width: 100%;
+        background-color: #334;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        
+    }
+    #page3-left{
+        
+        height: 100%;
+        width: 90%;
+    }
+    #page3-right{
+        height: 100%;
+        width:50%;
+        margin-top: 10vw;
+        
+    }
+    #page3-right h3{
+        font-size: 5vw;
+        text-align: center;
+    }
+    #icon{
+        width: 100%;
+        font-size: 5vw;
+        margin-left: 20vw;
+        margin-top: 3vw;
+        
+    }
+    #page3-right p{
+        margin-top: 7.4vw;
+        margin-left: 19vw;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #page3 h1{
+        margin-left: 14vw;
+        font-size: 10vw;
+        color: white;
+        font-weight: 200;
+    }
+    form{
+        margin-top: 3vw;
+    }
+    input{
+        height: 6vh;
+        width: 70%;
+        border-radius: 10px;
+        margin-left: 10vw;
+        
+    }
+    button{
+        height: 10vw;
+        border-radius: 5px;
+        background-color: transparent;
+        width: 25vw;
+        font-size: 6.3vw;
+        color: white;
+        margin-left: 15vw;
+        margin-top: 1vw;
+    }
+    
+}
